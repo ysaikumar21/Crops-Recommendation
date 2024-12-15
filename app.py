@@ -19,7 +19,7 @@ st.write("📊 **Predictive Model Built on Below Sample Data**")
 
 # Load dataset for display and range extraction
 try:
-    df = pd.read_csv("Modified_Crop_recommendation.csv")
+    df = pd.read_csv("C:\\Users\\Saiku\\Downloads\\Internship @sp\\Predictive Modelling Project\\crop\Modified_Crop_recommendation.csv")
     st.dataframe(df.head())
 except FileNotFoundError:
     st.error("❌ Dataset file 'Modified_Crop_recommendation.csv' not found. Please upload the file.")
